@@ -1,0 +1,21 @@
+{
+  "name": "fe-eng",
+  "private": true,
+  "description": "前端编码规范工程化",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "keywords": [
+    "fe-eng"
+  ],
+  "author": "wangjie",
+  "license": "ISC",
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "lerna": "^7.4.1",
+    "vuepress": "^2.0.0-beta.67"
+  }
+}
