@@ -4,7 +4,6 @@
   "description": "前端编码规范工程化",
   "scripts": {
     "preinstall": "npx only-allow pnpm",
-    "prepare": "husky install",
     "init": "pnpm install",
     "clean": "lerna clean && rm -rf node_modules",
     "test": "lerna run test",
@@ -25,6 +24,7 @@
   ],
   "devDependencies": {
     "lerna": "^7.4.1",
-    "vuepress": "^2.0.0-beta.45"
+    "vuepress": "^2.0.0-beta.45",
+    "husky": "^8.0.3"
   }
 }
