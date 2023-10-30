@@ -1,7 +1,23 @@
-import { defineUserConfig } from 'vuepress'
+import { defaultTheme } from '@vuepress/theme-default'
 
-export default defineUserConfig({
-  lang: 'zh-CN',
+export default {
+  base:'/sd-fe-eng/',
   title: '前端规范工程化',
-  description: '这是我的第一个 VuePress 站点',
-})
+  theme: defaultTheme({
+    logo: '/img/logo.png',
+    navbar: [
+      // NavbarItem
+      {
+        text: 'Foo',
+        link: '/foo/',
+      },
+      // NavbarGroup
+      {
+        text: 'Group',
+        children: ['/group/foo.md', '/group/bar.md'],
+      },
+      // 字符串 - 页面文件路径
+      '/bar/README.md',
+    ],
+  }),
+}
