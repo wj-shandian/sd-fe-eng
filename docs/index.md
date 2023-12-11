@@ -18,8 +18,6 @@ features:
 
 统一的规范可以让项目代码看起来更加优雅。写起来更加美观。规则的约束可以减少一些低级问题的产出。提高工作效率
 
-</br>
-
 ## :couch_and_lamp: 配套工具
 
 我们引入了多个业界流行的 `Linter` 作为规范文档的配套工具，并根据规范内容定制了对应的规则包，它们包括：
@@ -36,10 +34,6 @@ features:
 
 您可以使用[encode-fe-lint](https://www.npmjs.com/package/encode-fe-lint) 方便地为项目接入全部规范。
 
-</br>
-
 ## :email: 联系
 
 - **GitHub**: <https://github.com/wj-shandian/sd-fe-engc>
-
-</br>
