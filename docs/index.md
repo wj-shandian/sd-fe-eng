@@ -1,7 +1,6 @@
 ---
 home: true
-heroText: 前端编码规范工程化
-tagline: 前端编码规范工程化
+heroText: 首页介绍
 actionText: 立刻进入 →
 actionLink: /coding/html.md
 
