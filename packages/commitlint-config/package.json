@@ -1,11 +1,11 @@
 {
   "name": "commitlint-config",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "> TODO: description",
-  "author": "汪杰 <wj344554@alibaba-inc.com>",
+  "author": "汪杰",
   "homepage": "https://github.com/wj-shandian/sd-fe-eng#readme",
   "license": "ISC",
-  "main": "lib/commitlint-config.js",
+  "main": "index.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -25,5 +25,8 @@
   },
   "bugs": {
     "url": "https://github.com/wj-shandian/sd-fe-eng/issues"
+  },
+  "devDependencies": {
+    "conventional-changelog-conventionalcommits": "^7.0.2"
   }
 }
