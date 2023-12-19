@@ -40,4 +40,3 @@ npx husky add .husky/commit-msg 'npx commitlint --edit $1'
 
 更多信息可参考 [commitlint 文档](https://commitlint.js.org/#/guides-local-setup?id=install-husky)。
 
-## 测试
