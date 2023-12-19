@@ -23,5 +23,3 @@ npm install sd-markdownlint-config markdownlint --save-dev
 ```
 
 ## 测试
-
-1
