@@ -13,7 +13,7 @@
     "lib"
   ],
   "publishConfig": {
-    "registry": "https://registry.npmmirror.com/"
+    "registry": "https://registry.npmjs.org/"
   },
   "repository": {
     "type": "git",
@@ -25,5 +25,5 @@
   "bugs": {
     "url": "https://github.com/wj-shandian/sd-fe-eng/issues"
   },
-  "gitHead": "caf796ff1c76d9df24caa5e36db38f8317d4f0f0"
+  "gitHead": "aa325e3fb6608a83067bc8413ec05b149cf9d152"
 }

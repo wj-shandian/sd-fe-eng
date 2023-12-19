@@ -14,7 +14,7 @@
     "lib"
   ],
   "publishConfig": {
-    "registry": "https://registry.npmmirror.com/"
+    "registry": "https://registry.npmjs.org/"
   },
   "repository": {
     "type": "git",
@@ -29,5 +29,5 @@
   "devDependencies": {
     "conventional-changelog-conventionalcommits": "^7.0.2"
   },
-  "gitHead": "57fcbe42a5f13a5ed8b4f86cf3aea804b8b5dd96"
+  "gitHead": "aa325e3fb6608a83067bc8413ec05b149cf9d152"
 }
