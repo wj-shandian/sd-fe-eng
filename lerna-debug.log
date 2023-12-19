@@ -1,0 +1,9 @@
+17 error Error: Command failed with exit code 1: git remote update
+17 error fatal: unable to access 'https://github.com/wj-shandian/sd-fe-eng.git/': Failed sending data to the peer
+17 error     at makeError (/Users/wangjie/mySpace/sd-fe-eng/node_modules/.pnpm/execa@5.0.0/node_modules/execa/lib/error.js:59:11)
+17 error     at Function.module.exports.sync (/Users/wangjie/mySpace/sd-fe-eng/node_modules/.pnpm/execa@5.0.0/node_modules/execa/index.js:186:17)
+17 error     at Object.execSync (/Users/wangjie/mySpace/sd-fe-eng/node_modules/.pnpm/@lerna+child-process@7.4.1/node_modules/@lerna/child-process/index.js:39:16)
+17 error     at updateRemote (/Users/wangjie/mySpace/sd-fe-eng/node_modules/.pnpm/lerna@7.4.1/node_modules/lerna/dist/index.js:7617:18)
+17 error     at isBehindUpstream (/Users/wangjie/mySpace/sd-fe-eng/node_modules/.pnpm/lerna@7.4.1/node_modules/lerna/dist/index.js:7607:3)
+17 error     at VersionCommand.initialize (/Users/wangjie/mySpace/sd-fe-eng/node_modules/.pnpm/lerna@7.4.1/node_modules/lerna/dist/index.js:7914:57)
+17 error     at VersionCommand.runCommand (/Users/wangjie/mySpace/sd-fe-eng/node_modules/.pnpm/lerna@7.4.1/node_modules/lerna/dist/index.js:1761:36)
