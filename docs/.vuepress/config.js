@@ -17,6 +17,16 @@ export default {
           { text: "CHANGELOG 规范", link: "/eng-product/log.md" },
         ],
       },
+      {
+        text: "编码规范",
+        children: [
+          { text: "CSS 规范", link: "/code/css.md" },
+          { text: "HTML 规范", link: "/code/html.md" },
+          { text: "JS 规范", link: "/code/js.md" },
+          { text: "TS 规范", link: "/code/ts.md" },
+          { text: "NODE 规范", link: "/code/node.md" },
+        ],
+      },
     ],
     sidebar: [
       { text: "首页", link: "/index.md" },
@@ -35,6 +45,16 @@ export default {
             text: "CHANGELOG 规范",
             link: "/eng-product/log.md",
           },
+        ],
+      },
+      {
+        text: "编码规范",
+        children: [
+          { text: "CSS 规范", link: "/code/css.md" },
+          { text: "HTML 规范", link: "/code/html.md" },
+          { text: "JS 规范", link: "/code/js.md" },
+          { text: "TS 规范", link: "/code/ts.md" },
+          { text: "NODE 规范", link: "/code/node.md" },
         ],
       },
     ],
