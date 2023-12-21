@@ -19,6 +19,9 @@ importers:
       markdownlint-cli:
         specifier: ^0.37.0
         version: 0.37.0
+      stylelint:
+        specifier: ^14.3.0
+        version: 14.3.0
       vue:
         specifier: ^3.3.7
         version: 3.3.7(typescript@5.2.2)
