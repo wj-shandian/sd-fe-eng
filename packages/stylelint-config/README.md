@@ -19,3 +19,7 @@ npm install sd-stylelint-config stylelint stylelint-scss --save-dev
   "extends": "sd-stylelint-config"
 }
 ```
+
+配置package.JSON命令 `"style": "stylelint \"/src/**/*.(scss|css)\" --fix"`
+
+检测目录可以根据自己的需要修改
