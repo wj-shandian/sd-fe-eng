@@ -26,7 +26,8 @@
     "url": "git+https://github.com/wj-shandian/sd-fe-eng.git"
   },
   "scripts": {
-    "test": "node ./__tests__/eslint-config.test.js"
+    "lint": "eslint ./",
+    "test": "mocha ./__tests__/*.test.js --timeout 5000"
   },
   "bugs": {
     "url": "https://github.com/wj-shandian/sd-fe-eng/issues"
