@@ -27,6 +27,15 @@ export default {
           { text: "NODE 规范", link: "/code/node.md" },
         ],
       },
+      {
+        text: "NPM包",
+        children: [
+          { text: "sd-commitlint-config", link: "/npm/commitlint.md" },
+          { text: "sd-eslint-config", link: "/npm/eslint.md" },
+          { text: "sd-markdownlint-config", link: "/npm/markdownlint-config.md" },
+          { text: "sd-stylelint-config", link: "/npm/stylelint-config.md" },
+        ],
+      },
     ],
     sidebar: [
       { text: "首页", link: "/index.md" },
@@ -55,6 +64,15 @@ export default {
           { text: "JS 规范", link: "/code/js.md" },
           { text: "TS 规范", link: "/code/ts.md" },
           { text: "NODE 规范", link: "/code/node.md" },
+        ],
+      },
+      {
+        text: "NPM包",
+        children: [
+          { text: "sd-commitlint-config", link: "/npm/commitlint.md" },
+          { text: "sd-eslint-config", link: "/npm/eslint.md" },
+          { text: "sd-markdownlint-config", link: "/npm/markdownlint-config.md" },
+          { text: "sd-stylelint-config", link: "/npm/stylelint-config.md" },
         ],
       },
     ],
