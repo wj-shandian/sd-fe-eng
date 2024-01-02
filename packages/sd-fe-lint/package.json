@@ -1,0 +1,43 @@
+{
+  "name": "sd-fe-lint",
+  "version": "0.0.1",
+  "description": "前端工程化编码规范脚手架",
+  "keywords": [
+    "sd",
+    "lint",
+    "cli"
+  ],
+  "author": "汪杰",
+  "homepage": "https://github.com/wj-shandian/sd-fe-eng#readme",
+  "license": "ISC",
+  "main": "lib/sd-fe-lint.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib/"
+  ],
+  "engines": {
+    "node": "^12.22.0 || ^14.17.0 || >=16.0.0"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmmirror.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wj-shandian/sd-fe-eng.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/sd-fe-lint.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/wj-shandian/sd-fe-eng/issues"
+  },
+  "dependencies": {
+    "@types/node": "^20.10.6",
+    "command-exists": "^1.2.9",
+    "fs-extra": "^11.2.0",
+    "ora": "^8.0.1"
+  }
+}
