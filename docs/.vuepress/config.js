@@ -32,8 +32,9 @@ export default {
         children: [
           { text: "sd-commitlint-config", link: "/npm/commitlint.md" },
           { text: "sd-eslint-config", link: "/npm/eslint.md" },
-          { text: "sd-markdownlint-config", link: "/npm/markdownlint-config.md" },
-          { text: "sd-stylelint-config", link: "/npm/stylelint-config.md" },
+          { text: "sd-markdownlint-config", link: "/npm/markdownlint.md" },
+          { text: "sd-stylelint-config", link: "/npm/stylelint.md" },
+          { text: "eslint-plugin-sd", link: "/npm/eslintplugin.md" },
         ],
       },
     ],
@@ -71,8 +72,9 @@ export default {
         children: [
           { text: "sd-commitlint-config", link: "/npm/commitlint.md" },
           { text: "sd-eslint-config", link: "/npm/eslint.md" },
-          { text: "sd-markdownlint-config", link: "/npm/markdownlint-config.md" },
-          { text: "sd-stylelint-config", link: "/npm/stylelint-config.md" },
+          { text: "sd-markdownlint-config", link: "/npm/markdownlint.md" },
+          { text: "sd-stylelint-config", link: "/npm/stylelint.md" },
+          { text: "eslint-plugin-sd", link: "/npm/eslintplugin.md" },
         ],
       },
     ],
