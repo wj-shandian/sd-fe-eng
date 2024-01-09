@@ -1,5 +1,5 @@
 {
-  "name": "sd-eslint-config",
+  "name": "eslint-config-sd",
   "version": "1.0.9",
   "description": "js ts node 规范",
   "keywords": [
