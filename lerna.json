@@ -1,14 +1,12 @@
 {
-  "version": "1.0.10",
+  "version": "0.0.1",
   "npmClient": "pnpm",
   "command": {
     "publish": {
       "npmClient": "npm",
       "message": "chore: publish %s",
       "registry": "https://registry.npmjs.org",
-      "packages": [
-        "packages/*"
-      ]
+      "packages": ["packages/*"]
     }
   }
 }
