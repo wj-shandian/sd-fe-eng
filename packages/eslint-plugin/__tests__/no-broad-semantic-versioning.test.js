@@ -25,7 +25,7 @@ ruleTester.run("no-broad-semantic-versioning", rule, {
       })}`,
       errors: [
         {
-          message: 'The "eslint-plugin-encode" is not recommended to use "*"',
+          message: 'The "husky" is not recommended to use "*"',
         },
       ],
     },
