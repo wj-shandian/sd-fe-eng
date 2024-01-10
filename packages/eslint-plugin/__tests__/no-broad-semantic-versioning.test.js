@@ -1,4 +1,4 @@
-const rule = require("../../rules/no-broad-semantic-versioning");
+const rule = require("../rules/no-broad-semantic-versioning");
 const { RuleTester } = require("eslint");
 
 const ruleTester = new RuleTester();
