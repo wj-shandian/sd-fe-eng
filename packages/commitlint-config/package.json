@@ -1,6 +1,6 @@
 {
   "name": "sd-commitlint-config",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "commitlint 规范",
   "author": "汪杰",
   "homepage": "https://github.com/wj-shandian/sd-fe-eng#readme",
