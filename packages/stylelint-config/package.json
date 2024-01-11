@@ -1,11 +1,11 @@
 {
   "name": "sd-stylelint-config",
   "version": "0.0.5",
-  "description": "css规范",
+  "description": "css规范 stylelint",
   "keywords": [
     "css"
   ],
-  "author": "汪杰 <wj344554@alibaba-inc.com>",
+  "author": "汪杰",
   "homepage": "https://github.com/wj-shandian/sd-fe-eng#readme",
   "license": "ISC",
   "main": "index.js",
