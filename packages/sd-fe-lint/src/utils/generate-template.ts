@@ -38,7 +38,7 @@ export default async (cwd: string, data: Record<string, any>, vscode?: boolean) 
   const templates = glob.sync(`${vscode ? '_vscode' : '**'}/*.ejs`, { cwd: templatePath });
 
   for (const name of templates) {
-    const filePath = path.resolve(cwd, name.replace(/^.ejs$/, '').replace(/^_/, '.'));
+    const filePath = path.resolve(cwd, name.replace(/\.ejs$/, '').replace(/^_/, '.'));
     // ejs 模版渲染
     let content = ejs.render(fs.readFileSync(path.resolve(templatePath, name), 'utf-8'), {
       eslintIgnores: ESLINT_IGNORE_PATTERN,

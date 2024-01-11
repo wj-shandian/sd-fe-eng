@@ -120,7 +120,7 @@ export default async function (options: InitOptions) {
     );
     pkg = await conflictResolve(cwd, options.rewriteConfig);
 
-    log.success(`Step ${step}. 已完成项目依赖和配置冲突检查处理 :D`);
+    log.success(`Step ${step}. 已完成项目依赖和配置冲突检查处理`);
 
     if (!disableNpmInstall) {
       log.info(`Step ${++step}. 安装依赖`);
