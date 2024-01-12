@@ -6,6 +6,7 @@ import glob from 'glob';
 import { program } from 'commander';
 import spawn from 'cross-spawn';
 import { execSync } from 'child_process';
+import create from './actions/create';
 import init from './actions/init';
 import scan from './actions/scan';
 import update from './actions/update';
@@ -43,8 +44,19 @@ program
   );
 
 program
+  .command('create <file-name>')
+  .description('一键创建：为项目初始化规范工具和配置，可以根据项目类型和需求进行定制，从0开始创建')
+  .action((name) => {
+    if (!name) {
+      log.error(`项目名称必填`);
+      process.exit(0);
+    }
+    create({ cwd, name });
+  });
+
+program
   .command('init')
-  .description('一键接入：为项目初始化规范工具和配置，可以根据项目类型和需求进行定制')
+  .description('一键接入：为项目初始化规范工具和配置，可以根据项目类型和需求进行定制，已有项目接入')
   .option('--vscode', '写入.vscode/setting.json配置')
   .action(async (cmd) => {
     if (cmd.vscode) {

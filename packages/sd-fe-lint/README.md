@@ -31,7 +31,13 @@ npm install sd-fe-lint -g
 
 ### 使用
 
+#### `sd-fe-lint create filename`：一键接入
+
+直接创建文件夹 然后一键接入规范
+
 #### `sd-fe-lint init`：一键接入
+
+在已有项目或者新文件夹下接入（空文件夹需要有 `package.json`）
 
 在项目根目录执行 `sd-fe-lint init`，即可一键接入规范，为项目安装规范 `Lint` 所需的依赖和配置。
 

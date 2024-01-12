@@ -1,6 +1,6 @@
 {
   "name": "sd-fe-lint",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "前端工程化编码规范脚手架",
   "keywords": [
     "sd",
@@ -101,5 +101,5 @@
     "text-table": "^0.2.0",
     "vue-eslint-parser": "^7.3.0"
   },
-  "gitHead": "ce030702d0833d31fbe522fd229c69bef2ca5fa7"
+  "gitHead": "b8a9e23e9de95f5cb9ce1a24383872e0fed320d9"
 }

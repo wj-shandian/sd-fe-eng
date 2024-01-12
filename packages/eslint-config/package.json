@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-sd",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "js ts node 规范",
   "keywords": [
     "JavaScript",
@@ -15,9 +15,6 @@
     "lib": "lib",
     "test": "__tests__"
   },
-  "files": [
-    "lib"
-  ],
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
