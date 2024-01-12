@@ -6,8 +6,8 @@
       "npmClient": "npm",
       "message": "chore: publish %s",
       "registry": "https://registry.npmjs.org",
-      "version": "independent",
-      "packages": ["packages/*"]
-    }
+      "version": "independent"
+    },
+    "packages": ["packages/*"]
   }
 }
