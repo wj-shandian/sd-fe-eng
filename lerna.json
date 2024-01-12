@@ -1,10 +1,11 @@
 {
   "version": "0.0.8",
   "npmClient": "pnpm",
+  "useWorkspaces": true,
   "command": {
     "publish": {
       "npmClient": "npm",
-      "message": "chore: publish %s",
+      "message": "chore(release): publish %s",
       "registry": "https://registry.npmjs.org",
       "version": "independent"
     },
