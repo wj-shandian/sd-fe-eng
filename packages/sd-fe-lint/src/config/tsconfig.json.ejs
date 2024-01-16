@@ -1,0 +1,22 @@
+<%_ if (['typescript','typescript/react','typescript/vue','typescript/rax'].includes(eslintType)) {  _%>
+  {
+    "root": true,
+    "compilerOptions": {
+      "target": "ESNEXT",
+      "module": "commonjs",
+      "lib": ["es6", "dom"],
+      "allowJs": true,
+      "jsx": "react",
+      "strict": true,
+      "noImplicitAny": false,
+      "noUnusedLocals": true,
+      "noUnusedParameters": true,
+      "moduleResolution": "node",
+      "baseUrl": ".",
+      "paths": {},
+      "sourceMap": true
+    },
+    "exclude": ["node_modules", "lib", "es", "dist", "example"]
+  }
+<%_ } _%>
+    
