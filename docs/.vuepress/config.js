@@ -17,7 +17,7 @@ export default {
             link: "/tutorials/init.md",
           },
           { text: "markdown规范工程化", link: "/tutorials/markdownlint.md" },
-          { text: "style规范工程话", link: "/tutorials/style.mds" },
+          { text: "style规范工程话", link: "/tutorials/style.md" },
           { text: "commit规范工程化", link: "/tutorials/commitlint.md" },
           { text: "eslint规范工程化", link: "/tutorials/eslint.md" },
           { text: "eslint插件开发", link: "/tutorials/eslintplugin.md" },
@@ -53,8 +53,8 @@ export default {
         ],
       },
       {
-        title: "脚手架",
-        children: [{ title: "sd-fe-lint", path: "/cli/index.md" }],
+        text: "脚手架",
+        children: [{ text: "sd-fe-lint", link: "/cli/index.md" }],
       },
     ],
     sidebar: [
@@ -62,9 +62,12 @@ export default {
       {
         text: "教程",
         children: [
-          { text: "初始化文档以及action自动化部署", link: "/tutorials/init.md" },
+          {
+            text: "初始化文档以及action自动化部署",
+            link: "/tutorials/init.md",
+          },
           { text: "markdown规范工程化", link: "/tutorials/markdownlint.md" },
-          { text: "style规范工程话", link: "/tutorials/style.mds" },
+          { text: "style规范工程话", link: "/tutorials/style.md" },
           { text: "commit规范工程化", link: "/tutorials/commitlint.md" },
           { text: "eslint规范工程化", link: "/tutorials/eslint.md" },
           { text: "eslint插件开发", link: "/tutorials/eslintplugin.md" },
@@ -109,8 +112,8 @@ export default {
         ],
       },
       {
-        title: "脚手架",
-        children: [{ title: "sd-fe-lint", path: "/cli/index.md" }],
+        text: "脚手架",
+        children: [{ text: "sd-fe-lint", link: "/cli/index.md" }],
       },
     ],
   }),
